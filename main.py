@@ -95,7 +95,7 @@ class Ui(QMainWindow):
         calendar_layout.addWidget(self.calendar, 0, 0, 1, 2)
 
         self.date_begin_label = QLabel(calendar_frame)
-        self.date_begin_label.setText('Data de Fim:')
+        self.date_begin_label.setText('Data de Início:')
         calendar_layout.addWidget(self.date_begin_label, 1, 0)
         self.date_begin_textbox = QLineEdit(calendar_frame)
         self.date_begin_textbox.setPlaceholderText('Data de Início (dd/mm/yyyy)')
@@ -334,8 +334,7 @@ class Ui(QMainWindow):
 
         self.figure.subplots_adjust(0.1, 0.2, 0.82, 0.85)
         self.plot_ax.set_title(f"Deslocamento terrestre dos dias {self.date_begin.toString('dd/MM/yyyy')} a {self.date_end.toString('dd/MM/yyyy')}\n"+
-                               f"Latitude: {self.latitude}, Longitude: {self.longitude}"
-                               , 
+                               f"Latitude: {self.latitude}, Longitude: {self.longitude}", 
                                fontsize = 10)
         self.rad_plot, = self.plot_ax.plot(x, y3, '.-', markersize=5, color="blue" , label="Radial")
         self.lat_plot, = self.plot_ax.plot(x, y1, '^-', markersize=2 , color="green", label="Latitudinal")
