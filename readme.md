@@ -6,7 +6,7 @@ The interface is written in Python, using the PyQt5 library, while the backend f
 
 The original Solid code was modified only in syntax to enable its use in communication with Python through Fortran90 subroutines. To understand its operation, refer to the Solid manual: [https://geodesyworld.github.io/SOFTS/solid.htm](https://geodesyworld.github.io/SOFTS/solid.htm).
 
-If you wish to use the routines as a module, the file [pysolid.py](solid/pysolid.py) can be used. The tutorial/readme for its module usage can be found at [solid/readmeEn.md](solid/readmeEn.md). Also can [mapplot.py](map/mapplot.py), which the readme can be found at [map/readmeEn.md](map/readmeEn.md)
+If you wish to use the routines as a module, the file [pysolid.py](solid/pysolid.py) can be used. The tutorial/readme for its module usage can be found at [solid/readme.md](solid/readme.md). Also can [mapplot.py](map/mapplot.py), which the readme can be found at [map/readme.md](map/readme.md)
 
 To stay updated, even I don't believing there will be updates, you can follow the project [here](https://github.com/tanusszabo/PySolidGUI). For more information, feel free to contact, Tanus Szabo (tanus.szabo@cnpem.br).
 
